@@ -1,0 +1,64 @@
+# version: '3.8'
+
+services:
+  collector:
+    build: .
+    container_name: collector
+    restart: on-failure
+    depends_on:
+      - valkey
+      - mongo-hc
+      - localstack
+    environment:
+      - START_DATE=${START_DATE:-2025-06-14}
+      - END_DATE=${END_DATE:-2025-08-18}
+      - VALKEY_URI=valkey:6379
+      - VALKEY_PWD=${VALKEY_PWD:-rdb123}
+      - SQS_QUEUE_URL=${SQS_QUEUE_URL:-http://localstack:4566/000000000000/fhir-ingestion.fifo}
+    volumes:
+      - "./logs:/app/logs"
+    networks:
+      - fhir-network
+    
+
+  valkey:
+    image: valkey/valkey:7.2
+    container_name: valkey
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    # volumes:
+    #   - "./valkey/data:/data"
+    environment:
+      - VALKEY_PRIMARY_PASSWORD=${VALKEY_PWD:-rdb123}
+      - VALKEY_SENTINEL_PASSWORD=${VALKEY_PWD:-rdb123}
+      - VALKEY_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+    networks:
+      - fhir-network
+    
+  localstack:
+    image: localstack/localstack:3
+    container_name: localstack
+    environment:
+      - SERVICES=sqs
+      - DEBUG=1
+      - AWS_DEFAULT_REGION=sa-east-1
+      - DEFAULT_REGION=sa-east-1
+      - SKIP_CREDENTIALS_VALIDATION=1
+    ports:
+      - "4566:4566"
+    volumes:
+      - "./localstack/init-sqs.sh:/etc/localstack/init/ready.d/init-sqs.sh"
+      - "./localstack-data:/var/lib/localstack"
+    networks:
+      - fhir-network
+
+volumes:
+  mongo_hca_data:
+  mongo_hcb_data:
+  valkey_data:
+  logs:
+
+networks:
+  fhir-network:
+    external: true

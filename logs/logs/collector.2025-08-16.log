@@ -1,0 +1,877 @@
+2025/08/16 00:01:56 PWD: rdb123
+2025/08/16 00:01:56 URL: valkey:6379
+2025/08/16 00:01:56 Checking previous date processed in cache
+2025/08/16 00:01:56 Resuming from last processed date: 2025-06-26
+2025/08/16 00:01:56 **** tessteee currentDate *** 2025-06-26 00:00:00 +0000 UTC
+2025/08/16 00:01:56 UEEE false
+2025/08/16 00:01:56 Processing date: 2025-06-26
+2025/08/16 00:01:56 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-26
+2025/08/16 00:01:56 ***** Bundle Encounter: {[]}
+2025/08/16 00:01:56 Nenhum encontro encontrado para a data: 2025-06-26
+2025/08/16 00:01:56 UEEE false
+2025/08/16 00:01:56 Processing date: 2025-06-27
+2025/08/16 00:01:56 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-27
+2025/08/16 00:01:57 ***** Bundle Encounter: {[]}
+2025/08/16 00:01:57 Nenhum encontro encontrado para a data: 2025-06-27
+2025/08/16 00:01:57 UEEE false
+2025/08/16 00:01:57 Processing date: 2025-06-28
+2025/08/16 00:01:57 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-28
+2025/08/16 00:01:59 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309433 {Encounter 48309433 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode EMER} {2025-06-28 00:52:51.336243 +0000 UTC 2025-06-28 00:52:51.336243 +0000 UTC} [] {Patient/demo-ed-high-1}}}]}
+2025/08/16 00:01:59 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309433
+2025/08/16 00:01:59 UEEE false
+2025/08/16 00:01:59 Processing date: 2025-06-29
+2025/08/16 00:01:59 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-29
+2025/08/16 00:01:59 ***** Bundle Encounter: {[]}
+2025/08/16 00:01:59 Nenhum encontro encontrado para a data: 2025-06-29
+2025/08/16 00:01:59 UEEE false
+2025/08/16 00:01:59 Processing date: 2025-06-30
+2025/08/16 00:01:59 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-30
+2025/08/16 00:02:00 ***** Bundle Encounter: {[]}
+2025/08/16 00:02:00 Nenhum encontro encontrado para a data: 2025-06-30
+2025/08/16 00:02:00 UEEE true
+2025/08/16 00:02:00 Reached END_DATE (2025-06-30), stopping processing
+2025/08/16 00:02:00 Processing completed
+2025/08/16 00:02:00 Finish!
+2025/08/16 00:03:10 PWD: rdb123
+2025/08/16 00:03:10 URL: valkey:6379
+2025/08/16 00:03:10 Checking previous date processed in cache
+2025/08/16 00:03:10 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:03:10 **** tessteee currentDate *** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:03:10 UEEE false
+2025/08/16 00:03:10 Processing date: 2025-06-14
+2025/08/16 00:03:10 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:03:10 ***** Bundle Encounter: {[]}
+2025/08/16 00:03:10 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:03:10 UEEE false
+2025/08/16 00:03:10 Processing date: 2025-06-15
+2025/08/16 00:03:10 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:03:11 ***** Bundle Encounter: {[]}
+2025/08/16 00:03:11 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:03:11 UEEE false
+2025/08/16 00:03:11 Processing date: 2025-06-16
+2025/08/16 00:03:11 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:03:13 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:03:13 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:13 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:13 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:13 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:13 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:13 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:13 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:13 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:14 Sending message to SQS for client 002
+2025/08/16 00:03:14 Sending message to SQS for client 001
+2025/08/16 00:03:19 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, request canceled, context deadline exceeded
+2025/08/16 00:03:19 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, request canceled, context deadline exceeded
+2025/08/16 00:03:19 UEEE false
+2025/08/16 00:03:19 Processing date: 2025-06-17
+2025/08/16 00:03:19 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:03:20 ***** Bundle Encounter: {[]}
+2025/08/16 00:03:20 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:03:20 UEEE false
+2025/08/16 00:03:20 Processing date: 2025-06-18
+2025/08/16 00:03:20 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:03:21 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 00:03:21 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 00:03:21 UEEE false
+2025/08/16 00:03:21 Processing date: 2025-06-19
+2025/08/16 00:03:21 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-19
+2025/08/16 00:03:47 PWD: rdb123
+2025/08/16 00:03:47 URL: valkey:6379
+2025/08/16 00:03:47 Checking previous date processed in cache
+2025/08/16 00:03:47 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:03:47 **** tessteee currentDate *** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:03:47 UEEE false
+2025/08/16 00:03:47 Processing date: 2025-06-14
+2025/08/16 00:03:47 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:03:48 ***** Bundle Encounter: {[]}
+2025/08/16 00:03:48 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:03:48 UEEE false
+2025/08/16 00:03:48 Processing date: 2025-06-15
+2025/08/16 00:03:48 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:03:49 ***** Bundle Encounter: {[]}
+2025/08/16 00:03:49 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:03:49 UEEE false
+2025/08/16 00:03:49 Processing date: 2025-06-16
+2025/08/16 00:03:49 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:03:50 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:03:50 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:50 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:50 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:50 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:03:51 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:51 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:51 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:51 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:03:52 Sending message to SQS for client 001
+2025/08/16 00:03:52 Sending message to SQS for client 002
+2025/08/16 00:03:57 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, request canceled, context deadline exceeded
+2025/08/16 00:03:57 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, request canceled, context deadline exceeded
+2025/08/16 00:03:57 UEEE false
+2025/08/16 00:03:57 Processing date: 2025-06-17
+2025/08/16 00:03:57 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:03:58 ***** Bundle Encounter: {[]}
+2025/08/16 00:03:58 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:03:58 UEEE false
+2025/08/16 00:03:58 Processing date: 2025-06-18
+2025/08/16 00:03:58 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:07:38 PWD: rdb123
+2025/08/16 00:07:38 URL: valkey:6379
+2025/08/16 00:07:38 Checking previous date processed in cache
+2025/08/16 00:07:38 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:07:38 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:07:38 Processing date: 2025-06-14
+2025/08/16 00:07:38 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:07:39 ***** Bundle Encounter: {[]}
+2025/08/16 00:07:39 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:07:39 Processing date: 2025-06-15
+2025/08/16 00:07:39 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:07:40 ***** Bundle Encounter: {[]}
+2025/08/16 00:07:40 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:07:40 Processing date: 2025-06-16
+2025/08/16 00:07:40 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:07:41 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:07:41 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:07:41 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:07:41 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:07:41 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:07:42 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:07:42 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:07:43 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:07:43 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:07:44 Sending message to SQS for client 002
+2025/08/16 00:07:45 Sending message to SQS for client 001
+2025/08/16 00:07:49 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, request canceled, context deadline exceeded
+2025/08/16 00:07:50 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, no EC2 IMDS role found, operation error ec2imds: GetMetadata, request canceled, context deadline exceeded
+2025/08/16 00:07:50 Processing date: 2025-06-17
+2025/08/16 00:07:50 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:07:50 ***** Bundle Encounter: {[]}
+2025/08/16 00:07:50 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:07:50 Processing date: 2025-06-18
+2025/08/16 00:07:50 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:07:51 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 00:07:51 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 00:07:51 Processing date: 2025-06-19
+2025/08/16 00:07:51 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-19
+2025/08/16 00:13:53 PWD: rdb123
+2025/08/16 00:13:53 URL: valkey:6379
+2025/08/16 00:13:53 Checking previous date processed in cache
+2025/08/16 00:13:53 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:13:53 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:13:53 Processing date: 2025-06-14
+2025/08/16 00:13:53 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:13:54 ***** Bundle Encounter: {[]}
+2025/08/16 00:13:54 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:13:54 Processing date: 2025-06-15
+2025/08/16 00:13:54 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:13:55 ***** Bundle Encounter: {[]}
+2025/08/16 00:13:55 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:13:55 Processing date: 2025-06-16
+2025/08/16 00:13:55 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:13:56 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:13:56 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:13:56 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:13:56 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:13:56 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:13:57 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:13:57 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:13:57 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:13:57 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:13:58 Sending message to SQS for client 001
+2025/08/16 00:13:58 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, static credentials are empty
+2025/08/16 00:13:58 Sending message to SQS for client 002
+2025/08/16 00:13:58 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, static credentials are empty
+2025/08/16 00:13:58 Processing date: 2025-06-17
+2025/08/16 00:13:58 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:13:59 ***** Bundle Encounter: {[]}
+2025/08/16 00:13:59 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:13:59 Processing date: 2025-06-18
+2025/08/16 00:13:59 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:14:00 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 00:14:00 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 00:14:00 Processing date: 2025-06-19
+2025/08/16 00:14:00 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-19
+2025/08/16 00:14:01 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:01 Nenhum encontro encontrado para a data: 2025-06-19
+2025/08/16 00:14:01 Processing date: 2025-06-20
+2025/08/16 00:14:01 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-20
+2025/08/16 00:14:02 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/47972354 {Encounter 47972354 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-20 16:01:01 -0400 -0400 2025-06-20 16:01:01 -0400 -0400} [{{Practitioner/47972353}}] {Patient/47972352}}}]}
+2025/08/16 00:14:02 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/47972353
+2025/08/16 00:14:02 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/47972353
+2025/08/16 00:14:03 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/47972352
+2025/08/16 00:14:03 Making request to URL: https://hapi.fhir.org/baseR4/Patient/47972352
+2025/08/16 00:14:04 Sending message to SQS for client 001
+2025/08/16 00:14:04 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, static credentials are empty
+2025/08/16 00:14:04 Processing date: 2025-06-21
+2025/08/16 00:14:04 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-21
+2025/08/16 00:14:05 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/47972923 {Encounter 47972923 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-21 16:00:00 +0300 +0300 2025-06-21 16:30:00 +0300 +0300} [] {Patient/47972921}}}]}
+2025/08/16 00:14:05 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/47972923
+2025/08/16 00:14:05 Processing date: 2025-06-22
+2025/08/16 00:14:05 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-22
+2025/08/16 00:14:06 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:06 Nenhum encontro encontrado para a data: 2025-06-22
+2025/08/16 00:14:06 Processing date: 2025-06-23
+2025/08/16 00:14:06 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-23
+2025/08/16 00:14:07 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:07 Nenhum encontro encontrado para a data: 2025-06-23
+2025/08/16 00:14:07 Processing date: 2025-06-24
+2025/08/16 00:14:07 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-24
+2025/08/16 00:14:08 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48093501 {Encounter 48093501 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode EMER} {2025-06-24 14:30:00 -0400 -0400 2025-06-24 17:00:00 -0400 -0400} [{{Practitioner/2051}}] {Patient/7006218}}}]}
+2025/08/16 00:14:08 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2051
+2025/08/16 00:14:08 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2051
+2025/08/16 00:14:09 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/7006218
+2025/08/16 00:14:09 Making request to URL: https://hapi.fhir.org/baseR4/Patient/7006218
+2025/08/16 00:14:10 Sending message to SQS for client 001
+2025/08/16 00:14:10 Erro ao enviar mensagem para SQS: error sending message to SQS: operation error SQS: SendMessage, get identity: get credentials: failed to refresh cached credentials, static credentials are empty
+2025/08/16 00:14:10 Processing date: 2025-06-25
+2025/08/16 00:14:10 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-25
+2025/08/16 00:14:11 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:11 Nenhum encontro encontrado para a data: 2025-06-25
+2025/08/16 00:14:11 Processing date: 2025-06-26
+2025/08/16 00:14:11 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-26
+2025/08/16 00:14:12 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:12 Nenhum encontro encontrado para a data: 2025-06-26
+2025/08/16 00:14:12 Processing date: 2025-06-27
+2025/08/16 00:14:12 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-27
+2025/08/16 00:14:13 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:13 Nenhum encontro encontrado para a data: 2025-06-27
+2025/08/16 00:14:13 Processing date: 2025-06-28
+2025/08/16 00:14:13 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-28
+2025/08/16 00:14:14 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309433 {Encounter 48309433 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode EMER} {2025-06-28 00:52:51.336243 +0000 UTC 2025-06-28 00:52:51.336243 +0000 UTC} [] {Patient/demo-ed-high-1}}}]}
+2025/08/16 00:14:14 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309433
+2025/08/16 00:14:14 Processing date: 2025-06-29
+2025/08/16 00:14:14 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-29
+2025/08/16 00:14:15 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:15 Nenhum encontro encontrado para a data: 2025-06-29
+2025/08/16 00:14:15 Processing date: 2025-06-30
+2025/08/16 00:14:15 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-30
+2025/08/16 00:14:16 ***** Bundle Encounter: {[]}
+2025/08/16 00:14:16 Nenhum encontro encontrado para a data: 2025-06-30
+2025/08/16 00:14:16 Reached END_DATE (2025-06-30), stopping processing
+2025/08/16 00:14:16 Processing completed
+2025/08/16 00:14:16 Finish!
+2025/08/16 00:16:12 PWD: rdb123
+2025/08/16 00:16:12 URL: valkey:6379
+2025/08/16 00:16:12 Checking previous date processed in cache
+2025/08/16 00:16:12 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:16:12 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:16:12 Processing date: 2025-06-14
+2025/08/16 00:16:12 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:16:13 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:13 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:16:13 Processing date: 2025-06-15
+2025/08/16 00:16:13 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:16:14 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:14 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:16:14 Processing date: 2025-06-16
+2025/08/16 00:16:14 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:16:15 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:16:15 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:16:15 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:16:15 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:16:15 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:16:15 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:16:15 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:16:16 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:16:16 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:16:16 Sending message to SQS for client 001
+2025/08/16 00:16:16 Message successfully sent to SQS for client 001
+2025/08/16 00:16:17 Sending message to SQS for client 002
+2025/08/16 00:16:17 Message successfully sent to SQS for client 002
+2025/08/16 00:16:17 Processing date: 2025-06-17
+2025/08/16 00:16:17 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:16:18 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:18 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:16:18 Processing date: 2025-06-18
+2025/08/16 00:16:18 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:16:19 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 00:16:19 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 00:16:19 Processing date: 2025-06-19
+2025/08/16 00:16:19 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-19
+2025/08/16 00:16:20 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:20 Nenhum encontro encontrado para a data: 2025-06-19
+2025/08/16 00:16:20 Processing date: 2025-06-20
+2025/08/16 00:16:20 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-20
+2025/08/16 00:16:21 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/47972354 {Encounter 47972354 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-20 16:01:01 -0400 -0400 2025-06-20 16:01:01 -0400 -0400} [{{Practitioner/47972353}}] {Patient/47972352}}}]}
+2025/08/16 00:16:21 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/47972353
+2025/08/16 00:16:21 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/47972353
+2025/08/16 00:16:22 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/47972352
+2025/08/16 00:16:22 Making request to URL: https://hapi.fhir.org/baseR4/Patient/47972352
+2025/08/16 00:16:23 Sending message to SQS for client 001
+2025/08/16 00:16:23 Message successfully sent to SQS for client 001
+2025/08/16 00:16:23 Processing date: 2025-06-21
+2025/08/16 00:16:23 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-21
+2025/08/16 00:16:24 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/47972923 {Encounter 47972923 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-21 16:00:00 +0300 +0300 2025-06-21 16:30:00 +0300 +0300} [] {Patient/47972921}}}]}
+2025/08/16 00:16:24 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/47972923
+2025/08/16 00:16:24 Processing date: 2025-06-22
+2025/08/16 00:16:24 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-22
+2025/08/16 00:16:25 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:25 Nenhum encontro encontrado para a data: 2025-06-22
+2025/08/16 00:16:25 Processing date: 2025-06-23
+2025/08/16 00:16:25 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-23
+2025/08/16 00:16:26 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:26 Nenhum encontro encontrado para a data: 2025-06-23
+2025/08/16 00:16:26 Processing date: 2025-06-24
+2025/08/16 00:16:26 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-24
+2025/08/16 00:16:27 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48093501 {Encounter 48093501 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode EMER} {2025-06-24 14:30:00 -0400 -0400 2025-06-24 17:00:00 -0400 -0400} [{{Practitioner/2051}}] {Patient/7006218}}}]}
+2025/08/16 00:16:27 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2051
+2025/08/16 00:16:27 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2051
+2025/08/16 00:16:28 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/7006218
+2025/08/16 00:16:28 Making request to URL: https://hapi.fhir.org/baseR4/Patient/7006218
+2025/08/16 00:16:29 Sending message to SQS for client 001
+2025/08/16 00:16:29 Message successfully sent to SQS for client 001
+2025/08/16 00:16:29 Processing date: 2025-06-25
+2025/08/16 00:16:29 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-25
+2025/08/16 00:16:30 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:30 Nenhum encontro encontrado para a data: 2025-06-25
+2025/08/16 00:16:30 Processing date: 2025-06-26
+2025/08/16 00:16:30 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-26
+2025/08/16 00:16:31 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:31 Nenhum encontro encontrado para a data: 2025-06-26
+2025/08/16 00:16:31 Processing date: 2025-06-27
+2025/08/16 00:16:31 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-27
+2025/08/16 00:16:32 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:32 Nenhum encontro encontrado para a data: 2025-06-27
+2025/08/16 00:16:32 Processing date: 2025-06-28
+2025/08/16 00:16:32 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-28
+2025/08/16 00:16:33 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309433 {Encounter 48309433 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode EMER} {2025-06-28 00:52:51.336243 +0000 UTC 2025-06-28 00:52:51.336243 +0000 UTC} [] {Patient/demo-ed-high-1}}}]}
+2025/08/16 00:16:33 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309433
+2025/08/16 00:16:33 Processing date: 2025-06-29
+2025/08/16 00:16:33 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-29
+2025/08/16 00:16:34 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:34 Nenhum encontro encontrado para a data: 2025-06-29
+2025/08/16 00:16:34 Processing date: 2025-06-30
+2025/08/16 00:16:34 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-30
+2025/08/16 00:16:35 ***** Bundle Encounter: {[]}
+2025/08/16 00:16:35 Nenhum encontro encontrado para a data: 2025-06-30
+2025/08/16 00:16:35 Reached END_DATE (2025-06-30), stopping processing
+2025/08/16 00:16:35 Processing completed
+2025/08/16 00:16:35 Finish!
+2025/08/16 00:29:53 PWD: rdb123
+2025/08/16 00:29:53 URL: valkey:6379
+2025/08/16 00:29:53 Checking previous date processed in cache
+2025/08/16 00:29:53 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:29:53 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:29:53 Processing date: 2025-06-14
+2025/08/16 00:29:53 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:29:54 ***** Bundle Encounter: {[]}
+2025/08/16 00:29:54 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:29:54 Processing date: 2025-06-15
+2025/08/16 00:29:54 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:29:55 ***** Bundle Encounter: {[]}
+2025/08/16 00:29:55 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:29:55 Processing date: 2025-06-16
+2025/08/16 00:29:55 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:05 Attempt 1/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2025/08/16 00:30:05 Re-trying 1/3 in 2s s...
+2025/08/16 00:30:07 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:07 Attempt 2/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:07 Re-trying 2/3 in 4s s...
+2025/08/16 00:30:11 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:11 Attempt 3/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:11 Add failed date to unprocessed_dates: 2025-06-16%!(EXTRA *errors.errorString=All attempts were failed)
+2025/08/16 00:30:11 Error processing date 2025-06-16: falha ao processar data 2025-06-16: All attempts were failed
+2025/08/16 00:30:11 Processing date: 2025-06-16
+2025/08/16 00:30:11 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:11 Attempt 1/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:11 Re-trying 1/3 in 2s s...
+2025/08/16 00:30:13 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:13 Attempt 2/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:13 Re-trying 2/3 in 4s s...
+2025/08/16 00:30:17 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:17 Attempt 3/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:17 Add failed date to unprocessed_dates: 2025-06-16%!(EXTRA *errors.errorString=All attempts were failed)
+2025/08/16 00:30:17 Error processing date 2025-06-16: falha ao processar data 2025-06-16: All attempts were failed
+2025/08/16 00:30:17 Processing date: 2025-06-16
+2025/08/16 00:30:17 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:17 Attempt 1/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:17 Re-trying 1/3 in 2s s...
+2025/08/16 00:30:19 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:19 Attempt 2/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:19 Re-trying 2/3 in 4s s...
+2025/08/16 00:30:23 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:23 Attempt 3/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:23 Add failed date to unprocessed_dates: 2025-06-16%!(EXTRA *errors.errorString=All attempts were failed)
+2025/08/16 00:30:23 Error processing date 2025-06-16: falha ao processar data 2025-06-16: All attempts were failed
+2025/08/16 00:30:23 Processing date: 2025-06-16
+2025/08/16 00:30:23 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:23 Attempt 1/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:23 Re-trying 1/3 in 2s s...
+2025/08/16 00:30:25 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:30:25 Attempt 2/3 failed to request https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16: error calling API: Get "https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16": dial tcp: lookup hapi.fhir.org on 127.0.0.11:53: server misbehaving
+2025/08/16 00:30:25 Re-trying 2/3 in 4s s...
+2025/08/16 00:40:24 PWD: rdb123
+2025/08/16 00:40:24 URL: valkey:6379
+2025/08/16 00:40:24 Checking previous date processed in cache
+2025/08/16 00:40:24 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:40:24 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:40:24 Processing date: 2025-06-14
+2025/08/16 00:40:24 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:40:25 ***** Bundle Encounter: {[]}
+2025/08/16 00:40:25 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:40:25 Processing date: 2025-06-15
+2025/08/16 00:40:25 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:40:26 ***** Bundle Encounter: {[]}
+2025/08/16 00:40:26 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:40:26 Processing date: 2025-06-16
+2025/08/16 00:40:26 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:40:27 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:40:27 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:40:27 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:40:27 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:40:27 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:40:28 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:40:28 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:40:29 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:40:29 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:40:30 Mensagem sendo enviada: [123 10 32 32 34 101 110 99 111 117 110 116 101 114 34 58 32 123 10 32 32 32 32 34 114 101 115 111 117 114 99 101 84 121 112 101 34 58 32 34 69 110 99 111 117 110 116 101 114 34 44 10 32 32 32 32 34 105 100 34 58 32 34 52 56 51 55 50 51 52 49 34 44 10 32 32 32 32 34 115 116 97 116 117 115 34 58 32 34 102 105 110 105 115 104 101 100 34 44 10 32 32 32 32 34 99 108 97 115 115 34 58 32 123 10 32 32 32 32 32 32 34 115 121 115 116 101 109 34 58 32 34 104 116 116 112 58 47 47 116 101 114 109 105 110 111 108 111 103 121 46 104 108 55 46 111 114 103 47 67 111 100 101 83 121 115 116 101 109 47 118 51 45 65 99 116 67 111 100 101 34 44 10 32 32 32 32 32 32 34 99 111 100 101 34 58 32 34 86 82 34 10 32 32 32 32 125 44 10 32 32 32 32 34 112 101 114 105 111 100 34 58 32 123 10 32 32 32 32 32 32 34 115 116 97 114 116 34 58 32 34 50 48 50 53 45 48 54 45 49 54 84 48 57 58 48 48 58 48 48 43 48 50 58 48 48 34 44 10 32 32 32 32 32 32 34 101 110 100 34 58 32 34 50 48 50 53 45 48 54 45 49 54 84 48 57 58 52 53 58 48 48 43 48 50 58 48 48 34 10 32 32 32 32 125 44 10 32 32 32 32 34 112 97 114 116 105 99 105 112 97 110 116 34 58 32 91 10 32 32 32 32 32 32 123 10 32 32 32 32 32 32 32 32 34 105 110 100 105 118 105 100 117 97 108 34 58 32 123 10 32 32 32 32 32 32 32 32 32 32 34 114 101 102 101 114 101 110 99 101 34 58 32 34 80 114 97 99 116 105 116 105 111 110 101 114 47 50 98 51 55 51 99 53 99 45 48 102 98 102 45 52 49 54 55 45 56 55 53 98 45 52 55 101 101 55 102 99 53 99 100 53 100 34 10 32 32 32 32 32 32 32 32 125 10 32 32 32 32 32 32 125 10 32 32 32 32 93 44 10 32 32 32 32 34 115 117 98 106 101 99 116 34 58 32 123 10 32 32 32 32 32 32 34 114 101 102 101 114 101 110 99 101 34 58 32 34 80 97 116 105 101 110 116 47 50 101 55 101 48 102 101 51 45 102 48 98 102 45 52 101 48 97 45 56 50 50 56 45 98 56 101 55 102 99 101 99 56 99 56 50 34 10 32 32 32 32 125 10 32 32 125 44 10 32 32 34 112 114 97 99 116 105 116 105 111 110 101 114 34 58 32 123 10 32 32 32 32 34 114 101 115 111 117 114 99 101 84 121 112 101 34 58 32 34 80 114 97 99 116 105 116 105 111 110 101 114 34 44 10 32 32 32 32 34 105 100 34 58 32 34 50 98 51 55 51 99 53 99 45 48 102 98 102 45 52 49 54 55 45 56 55 53 98 45 52 55 101 101 55 102 99 53 99 100 53 100 34 44 10 32 32 32 32 34 110 97 109 101 34 58 32 91 10 32 32 32 32 32 32 123 10 32 32 32 32 32 32 32 32 34 102 97 109 105 108 121 34 58 32 34 68 111 101 34 44 10 32 32 32 32 32 32 32 32 34 103 105 118 101 110 34 58 32 91 10 32 32 32 32 32 32 32 32 32 32 34 74 111 104 110 34 10 32 32 32 32 32 32 32 32 93 10 32 32 32 32 32 32 125 10 32 32 32 32 93 10 32 32 125 44 10 32 32 34 112 97 116 105 101 110 116 34 58 32 123 10 32 32 32 32 34 114 101 115 111 117 114 99 101 84 121 112 101 34 58 32 34 80 97 116 105 101 110 116 34 44 10 32 32 32 32 34 105 100 34 58 32 34 50 101 55 101 48 102 101 51 45 102 48 98 102 45 52 101 48 97 45 56 50 50 56 45 98 56 101 55 102 99 101 99 56 99 56 50 34 44 10 32 32 32 32 34 110 97 109 101 34 58 32 91 10 32 32 32 32 32 32 123 10 32 32 32 32 32 32 32 32 34 102 97 109 105 108 121 34 58 32 34 86 101 114 100 105 34 44 10 32 32 32 32 32 32 32 32 34 103 105 118 101 110 34 58 32 91 10 32 32 32 32 32 32 32 32 32 32 34 77 97 114 105 111 34 10 32 32 32 32 32 32 32 32 93 10 32 32 32 32 32 32 125 10 32 32 32 32 93 44 10 32 32 32 32 34 98 105 114 116 104 68 97 116 101 34 58 32 34 34 44 10 32 32 32 32 34 103 101 110 100 101 114 34 58 32 34 34 10 32 32 125 10 125]
+2025/08/16 00:40:30 Sending message to SQS for client 002
+2025/08/16 00:40:30 Message successfully sent to SQS for client 002
+2025/08/16 00:40:31 Mensagem sendo enviada: [123 10 32 32 34 101 110 99 111 117 110 116 101 114 34 58 32 123 10 32 32 32 32 34 114 101 115 111 117 114 99 101 84 121 112 101 34 58 32 34 69 110 99 111 117 110 116 101 114 34 44 10 32 32 32 32 34 105 100 34 58 32 34 52 56 51 55 50 50 56 53 34 44 10 32 32 32 32 34 115 116 97 116 117 115 34 58 32 34 102 105 110 105 115 104 101 100 34 44 10 32 32 32 32 34 99 108 97 115 115 34 58 32 123 10 32 32 32 32 32 32 34 115 121 115 116 101 109 34 58 32 34 104 116 116 112 58 47 47 116 101 114 109 105 110 111 108 111 103 121 46 104 108 55 46 111 114 103 47 67 111 100 101 83 121 115 116 101 109 47 118 51 45 65 99 116 67 111 100 101 34 44 10 32 32 32 32 32 32 34 99 111 100 101 34 58 32 34 86 82 34 10 32 32 32 32 125 44 10 32 32 32 32 34 112 101 114 105 111 100 34 58 32 123 10 32 32 32 32 32 32 34 115 116 97 114 116 34 58 32 34 50 48 50 53 45 48 54 45 49 54 84 48 57 58 48 48 58 48 48 43 48 50 58 48 48 34 44 10 32 32 32 32 32 32 34 101 110 100 34 58 32 34 50 48 50 53 45 48 54 45 49 54 84 48 57 58 52 53 58 48 48 43 48 50 58 48 48 34 10 32 32 32 32 125 44 10 32 32 32 32 34 112 97 114 116 105 99 105 112 97 110 116 34 58 32 91 10 32 32 32 32 32 32 123 10 32 32 32 32 32 32 32 32 34 105 110 100 105 118 105 100 117 97 108 34 58 32 123 10 32 32 32 32 32 32 32 32 32 32 34 114 101 102 101 114 101 110 99 101 34 58 32 34 80 114 97 99 116 105 116 105 111 110 101 114 47 50 98 51 55 51 99 53 99 45 48 102 98 102 45 52 49 54 55 45 56 55 53 98 45 52 55 101 101 55 102 99 53 99 100 53 100 34 10 32 32 32 32 32 32 32 32 125 10 32 32 32 32 32 32 125 10 32 32 32 32 93 44 10 32 32 32 32 34 115 117 98 106 101 99 116 34 58 32 123 10 32 32 32 32 32 32 34 114 101 102 101 114 101 110 99 101 34 58 32 34 80 97 116 105 101 110 116 47 50 101 55 101 48 102 101 51 45 102 48 98 102 45 52 101 48 97 45 56 50 50 56 45 98 56 101 55 102 99 101 99 56 99 56 50 34 10 32 32 32 32 125 10 32 32 125 44 10 32 32 34 112 114 97 99 116 105 116 105 111 110 101 114 34 58 32 123 10 32 32 32 32 34 114 101 115 111 117 114 99 101 84 121 112 101 34 58 32 34 80 114 97 99 116 105 116 105 111 110 101 114 34 44 10 32 32 32 32 34 105 100 34 58 32 34 50 98 51 55 51 99 53 99 45 48 102 98 102 45 52 49 54 55 45 56 55 53 98 45 52 55 101 101 55 102 99 53 99 100 53 100 34 44 10 32 32 32 32 34 110 97 109 101 34 58 32 91 10 32 32 32 32 32 32 123 10 32 32 32 32 32 32 32 32 34 102 97 109 105 108 121 34 58 32 34 68 111 101 34 44 10 32 32 32 32 32 32 32 32 34 103 105 118 101 110 34 58 32 91 10 32 32 32 32 32 32 32 32 32 32 34 74 111 104 110 34 10 32 32 32 32 32 32 32 32 93 10 32 32 32 32 32 32 125 10 32 32 32 32 93 10 32 32 125 44 10 32 32 34 112 97 116 105 101 110 116 34 58 32 123 10 32 32 32 32 34 114 101 115 111 117 114 99 101 84 121 112 101 34 58 32 34 80 97 116 105 101 110 116 34 44 10 32 32 32 32 34 105 100 34 58 32 34 50 101 55 101 48 102 101 51 45 102 48 98 102 45 52 101 48 97 45 56 50 50 56 45 98 56 101 55 102 99 101 99 56 99 56 50 34 44 10 32 32 32 32 34 110 97 109 101 34 58 32 91 10 32 32 32 32 32 32 123 10 32 32 32 32 32 32 32 32 34 102 97 109 105 108 121 34 58 32 34 86 101 114 100 105 34 44 10 32 32 32 32 32 32 32 32 34 103 105 118 101 110 34 58 32 91 10 32 32 32 32 32 32 32 32 32 32 34 77 97 114 105 111 34 10 32 32 32 32 32 32 32 32 93 10 32 32 32 32 32 32 125 10 32 32 32 32 93 44 10 32 32 32 32 34 98 105 114 116 104 68 97 116 101 34 58 32 34 34 44 10 32 32 32 32 34 103 101 110 100 101 114 34 58 32 34 34 10 32 32 125 10 125]
+2025/08/16 00:40:31 Sending message to SQS for client 001
+2025/08/16 00:40:31 Message successfully sent to SQS for client 001
+2025/08/16 00:40:31 Processing date: 2025-06-17
+2025/08/16 00:40:31 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:40:32 ***** Bundle Encounter: {[]}
+2025/08/16 00:40:32 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:40:32 Processing date: 2025-06-18
+2025/08/16 00:40:32 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:40:33 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 00:40:33 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 00:40:33 Reached END_DATE (2025-06-18), stopping processing
+2025/08/16 00:40:33 Processing completed
+2025/08/16 00:40:33 Finish!
+2025/08/16 00:41:37 PWD: rdb123
+2025/08/16 00:41:37 URL: valkey:6379
+2025/08/16 00:41:37 Checking previous date processed in cache
+2025/08/16 00:41:37 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 00:41:37 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 00:41:37 Processing date: 2025-06-14
+2025/08/16 00:41:37 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 00:41:38 ***** Bundle Encounter: {[]}
+2025/08/16 00:41:38 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 00:41:38 Processing date: 2025-06-15
+2025/08/16 00:41:38 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 00:41:39 ***** Bundle Encounter: {[]}
+2025/08/16 00:41:39 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 00:41:39 Processing date: 2025-06-16
+2025/08/16 00:41:39 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 00:41:40 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 00:41:40 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:41:40 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:41:40 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:41:40 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 00:41:40 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:41:40 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:41:40 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:41:40 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 00:41:41 Mensagem sendo enviada: {
+  "encounter": {
+    "resourceType": "Encounter",
+    "id": "48372285",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "VR"
+    },
+    "period": {
+      "start": "2025-06-16T09:00:00+02:00",
+      "end": "2025-06-16T09:45:00+02:00"
+    },
+    "participant": [
+      {
+        "individual": {
+          "reference": "Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d"
+        }
+      }
+    ],
+    "subject": {
+      "reference": "Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82"
+    }
+  },
+  "practitioner": {
+    "resourceType": "Practitioner",
+    "id": "2b373c5c-0fbf-4167-875b-47ee7fc5cd5d",
+    "name": [
+      {
+        "family": "Doe",
+        "given": [
+          "John"
+        ]
+      }
+    ]
+  },
+  "patient": {
+    "resourceType": "Patient",
+    "id": "2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82",
+    "name": [
+      {
+        "family": "Verdi",
+        "given": [
+          "Mario"
+        ]
+      }
+    ],
+    "birthDate": "",
+    "gender": ""
+  }
+}
+2025/08/16 00:41:41 Sending message to SQS for client 001
+2025/08/16 00:41:41 Message successfully sent to SQS for client 001
+2025/08/16 00:41:41 Mensagem sendo enviada: {
+  "encounter": {
+    "resourceType": "Encounter",
+    "id": "48372341",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "VR"
+    },
+    "period": {
+      "start": "2025-06-16T09:00:00+02:00",
+      "end": "2025-06-16T09:45:00+02:00"
+    },
+    "participant": [
+      {
+        "individual": {
+          "reference": "Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d"
+        }
+      }
+    ],
+    "subject": {
+      "reference": "Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82"
+    }
+  },
+  "practitioner": {
+    "resourceType": "Practitioner",
+    "id": "2b373c5c-0fbf-4167-875b-47ee7fc5cd5d",
+    "name": [
+      {
+        "family": "Doe",
+        "given": [
+          "John"
+        ]
+      }
+    ]
+  },
+  "patient": {
+    "resourceType": "Patient",
+    "id": "2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82",
+    "name": [
+      {
+        "family": "Verdi",
+        "given": [
+          "Mario"
+        ]
+      }
+    ],
+    "birthDate": "",
+    "gender": ""
+  }
+}
+2025/08/16 00:41:41 Sending message to SQS for client 002
+2025/08/16 00:41:42 Message successfully sent to SQS for client 002
+2025/08/16 00:41:42 Processing date: 2025-06-17
+2025/08/16 00:41:42 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 00:41:43 ***** Bundle Encounter: {[]}
+2025/08/16 00:41:43 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 00:41:43 Processing date: 2025-06-18
+2025/08/16 00:41:43 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 00:41:44 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 00:41:44 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 00:41:44 Reached END_DATE (2025-06-18), stopping processing
+2025/08/16 00:41:44 Processing completed
+2025/08/16 00:41:44 Finish!
+2025/08/16 13:35:35 PWD: rdb123
+2025/08/16 13:35:35 URL: valkey:6379
+2025/08/16 13:35:35 Checking previous date processed in cache
+2025/08/16 13:35:35 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 13:35:35 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 13:35:35 Processing date: 2025-06-14
+2025/08/16 13:35:35 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 13:35:36 ***** Bundle Encounter: {[]}
+2025/08/16 13:35:36 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 13:35:36 Processing date: 2025-06-15
+2025/08/16 13:35:36 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 13:44:21 PWD: rdb123
+2025/08/16 13:44:21 URL: valkey:6379
+2025/08/16 13:44:21 Checking previous date processed in cache
+2025/08/16 13:44:21 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 13:44:21 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 13:44:21 Processing date: 2025-06-14
+2025/08/16 13:44:21 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 13:44:21 ***** Bundle Encounter: {[]}
+2025/08/16 13:44:21 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 13:44:21 Processing date: 2025-06-15
+2025/08/16 13:44:21 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 13:44:22 ***** Bundle Encounter: {[]}
+2025/08/16 13:44:22 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 13:44:22 Processing date: 2025-06-16
+2025/08/16 13:44:22 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 13:44:24 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 13:44:24 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 13:44:24 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 13:44:24 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 13:44:24 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 13:44:24 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 13:44:24 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 13:44:24 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 13:44:24 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 13:44:25 Mensagem sendo enviada: {
+  "encounter": {
+    "resourceType": "Encounter",
+    "id": "48372285",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "VR"
+    },
+    "period": {
+      "start": "2025-06-16T09:00:00+02:00",
+      "end": "2025-06-16T09:45:00+02:00"
+    },
+    "participant": [
+      {
+        "individual": {
+          "reference": "Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d"
+        }
+      }
+    ],
+    "subject": {
+      "reference": "Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82"
+    }
+  },
+  "practitioner": {
+    "resourceType": "Practitioner",
+    "id": "2b373c5c-0fbf-4167-875b-47ee7fc5cd5d",
+    "name": [
+      {
+        "family": "Doe",
+        "given": [
+          "John"
+        ]
+      }
+    ]
+  },
+  "patient": {
+    "resourceType": "Patient",
+    "id": "2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82",
+    "name": [
+      {
+        "family": "Verdi",
+        "given": [
+          "Mario"
+        ]
+      }
+    ],
+    "birthDate": "",
+    "gender": ""
+  }
+}
+2025/08/16 13:44:25 Sending message to SQS for client 001
+2025/08/16 13:44:25 Mensagem sendo enviada: {
+  "encounter": {
+    "resourceType": "Encounter",
+    "id": "48372341",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "VR"
+    },
+    "period": {
+      "start": "2025-06-16T09:00:00+02:00",
+      "end": "2025-06-16T09:45:00+02:00"
+    },
+    "participant": [
+      {
+        "individual": {
+          "reference": "Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d"
+        }
+      }
+    ],
+    "subject": {
+      "reference": "Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82"
+    }
+  },
+  "practitioner": {
+    "resourceType": "Practitioner",
+    "id": "2b373c5c-0fbf-4167-875b-47ee7fc5cd5d",
+    "name": [
+      {
+        "family": "Doe",
+        "given": [
+          "John"
+        ]
+      }
+    ]
+  },
+  "patient": {
+    "resourceType": "Patient",
+    "id": "2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82",
+    "name": [
+      {
+        "family": "Verdi",
+        "given": [
+          "Mario"
+        ]
+      }
+    ],
+    "birthDate": "",
+    "gender": ""
+  }
+}
+2025/08/16 13:44:25 Sending message to SQS for client 002
+2025/08/16 13:44:25 Message successfully sent to SQS for client 001
+2025/08/16 13:44:25 Message successfully sent to SQS for client 002
+2025/08/16 13:44:25 Processing date: 2025-06-17
+2025/08/16 13:44:25 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 13:44:27 ***** Bundle Encounter: {[]}
+2025/08/16 13:44:27 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 13:44:27 Processing date: 2025-06-18
+2025/08/16 13:44:27 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 13:44:27 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 13:44:27 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 13:44:27 Reached END_DATE (2025-06-18), stopping processing
+2025/08/16 13:44:27 Processing completed
+2025/08/16 13:44:27 Finish!
+2025/08/16 14:25:02 PWD: rdb123
+2025/08/16 14:25:02 URL: valkey:6379
+2025/08/16 14:25:02 Checking previous date processed in cache
+2025/08/16 14:25:02 No last processed date found, starting from START_DATE: 2025-06-14
+2025/08/16 14:25:02 **** currentDate **** 2025-06-14 00:00:00 +0000 UTC
+2025/08/16 14:25:02 Processing date: 2025-06-14
+2025/08/16 14:25:02 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-14
+2025/08/16 14:25:02 ***** Bundle Encounter: {[]}
+2025/08/16 14:25:02 Nenhum encontro encontrado para a data: 2025-06-14
+2025/08/16 14:25:02 Processing date: 2025-06-15
+2025/08/16 14:25:02 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-15
+2025/08/16 14:25:04 ***** Bundle Encounter: {[]}
+2025/08/16 14:25:04 Nenhum encontro encontrado para a data: 2025-06-15
+2025/08/16 14:25:04 Processing date: 2025-06-16
+2025/08/16 14:25:04 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-16
+2025/08/16 14:25:05 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48372285 {Encounter 48372285 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}} {https://hapi.fhir.org/baseR4/Encounter/48372341 {Encounter 48372341 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode VR} {2025-06-16 09:00:00 +0200 +0200 2025-06-16 09:45:00 +0200 +0200} [{{Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d}}] {Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82}}}]}
+2025/08/16 14:25:05 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 14:25:05 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 14:25:05 Buscando practitioner de: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 14:25:05 Making request to URL: https://hapi.fhir.org/baseR4/Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d
+2025/08/16 14:25:06 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 14:25:06 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 14:25:06 Buscando paciente de: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 14:25:06 Making request to URL: https://hapi.fhir.org/baseR4/Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82
+2025/08/16 14:25:07 Mensagem sendo enviada: {
+  "encounter": {
+    "resourceType": "Encounter",
+    "id": "48372341",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "VR"
+    },
+    "period": {
+      "start": "2025-06-16T09:00:00+02:00",
+      "end": "2025-06-16T09:45:00+02:00"
+    },
+    "participant": [
+      {
+        "individual": {
+          "reference": "Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d"
+        }
+      }
+    ],
+    "subject": {
+      "reference": "Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82"
+    }
+  },
+  "practitioner": {
+    "resourceType": "Practitioner",
+    "id": "2b373c5c-0fbf-4167-875b-47ee7fc5cd5d",
+    "name": [
+      {
+        "family": "Doe",
+        "given": [
+          "John"
+        ]
+      }
+    ]
+  },
+  "patient": {
+    "resourceType": "Patient",
+    "id": "2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82",
+    "name": [
+      {
+        "family": "Verdi",
+        "given": [
+          "Mario"
+        ]
+      }
+    ],
+    "birthDate": "",
+    "gender": ""
+  }
+}
+2025/08/16 14:25:07 Sending message to SQS for client 002
+2025/08/16 14:25:08 Message successfully sent to SQS for client 002
+2025/08/16 14:25:08 Mensagem sendo enviada: {
+  "encounter": {
+    "resourceType": "Encounter",
+    "id": "48372285",
+    "status": "finished",
+    "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "VR"
+    },
+    "period": {
+      "start": "2025-06-16T09:00:00+02:00",
+      "end": "2025-06-16T09:45:00+02:00"
+    },
+    "participant": [
+      {
+        "individual": {
+          "reference": "Practitioner/2b373c5c-0fbf-4167-875b-47ee7fc5cd5d"
+        }
+      }
+    ],
+    "subject": {
+      "reference": "Patient/2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82"
+    }
+  },
+  "practitioner": {
+    "resourceType": "Practitioner",
+    "id": "2b373c5c-0fbf-4167-875b-47ee7fc5cd5d",
+    "name": [
+      {
+        "family": "Doe",
+        "given": [
+          "John"
+        ]
+      }
+    ]
+  },
+  "patient": {
+    "resourceType": "Patient",
+    "id": "2e7e0fe3-f0bf-4e0a-8228-b8e7fcec8c82",
+    "name": [
+      {
+        "family": "Verdi",
+        "given": [
+          "Mario"
+        ]
+      }
+    ],
+    "birthDate": "",
+    "gender": ""
+  }
+}
+2025/08/16 14:25:08 Sending message to SQS for client 001
+2025/08/16 14:25:09 Message successfully sent to SQS for client 001
+2025/08/16 14:25:09 Processing date: 2025-06-17
+2025/08/16 14:25:09 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-17
+2025/08/16 14:25:10 ***** Bundle Encounter: {[]}
+2025/08/16 14:25:10 Nenhum encontro encontrado para a data: 2025-06-17
+2025/08/16 14:25:10 Processing date: 2025-06-18
+2025/08/16 14:25:10 Making request to URL: https://hapi.fhir.org/baseR4/Encounter?date=2025-06-18
+2025/08/16 14:25:11 ***** Bundle Encounter: {[{https://hapi.fhir.org/baseR4/Encounter/48309442 {Encounter 48309442 finished {http://terminology.hl7.org/CodeSystem/v3-ActCode AMB} {2025-06-18 00:52:59.354 +0000 UTC 2025-06-18 00:52:59.354 +0000 UTC} [] {Patient/demo-normal-1}}}]}
+2025/08/16 14:25:11 Invalid encounter found, adding to invalid_encounters set: https://hapi.fhir.org/baseR4/Encounter/48309442
+2025/08/16 14:25:11 Reached END_DATE (2025-06-18), stopping processing
+2025/08/16 14:25:11 Processing completed
+2025/08/16 14:25:11 Finish!
