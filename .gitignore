@@ -29,6 +29,7 @@ go.work.sum
 
 valkey/
 localstack-data/
+logs/
 
 # Editor/IDE
 # .idea/

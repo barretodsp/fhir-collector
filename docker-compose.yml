@@ -1,4 +1,4 @@
-# version: '3.8'
+version: '3.8'
 
 services:
   collector:
@@ -7,7 +7,6 @@ services:
     restart: on-failure
     depends_on:
       - valkey
-      - mongo-hc
       - localstack
     environment:
       - START_DATE=${START_DATE:-2025-06-14}
@@ -20,7 +19,6 @@ services:
     networks:
       - fhir-network
     
-
   valkey:
     image: valkey/valkey:7.2
     container_name: valkey
@@ -39,25 +37,23 @@ services:
   localstack:
     image: localstack/localstack:3
     container_name: localstack
+    user: root
     environment:
       - SERVICES=sqs
       - DEBUG=1
       - AWS_DEFAULT_REGION=sa-east-1
       - DEFAULT_REGION=sa-east-1
       - SKIP_CREDENTIALS_VALIDATION=1
+      - INIT_SCRIPTS_PATH=/etc/localstack/init
+      - DOCKER_HOST=unix:///var/run/docker.sock
     ports:
       - "4566:4566"
     volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
       - "./localstack/init-sqs.sh:/etc/localstack/init/ready.d/init-sqs.sh"
       - "./localstack-data:/var/lib/localstack"
     networks:
       - fhir-network
-
-volumes:
-  mongo_hca_data:
-  mongo_hcb_data:
-  valkey_data:
-  logs:
 
 networks:
   fhir-network:
